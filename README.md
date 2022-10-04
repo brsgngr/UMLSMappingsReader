@@ -42,6 +42,10 @@ Execution
 Command line invocations may look like this:
 
 ```
+umlsMappingsReader.py -i input_icd.txt
+umlsMappingsReader.py -l input_loinc.txt
+umlsMappingsReader.py -o input_ops.txt OPS-SNOMED_map.csv
+umlsMappingsReader.py -i input_icd.txt -l input_loinc.txt 
 umlsMappingsReader.py -i input_icd.txt -l input_loinc.txt -o input_ops.txt OPS-SNOMED_map.csv 
 
 -i : expects the name of an input file with ICD-10-GM codes
